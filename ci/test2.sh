@@ -1,5 +1,8 @@
 #!/bin/sh
 
+source docker-image-resource/assets/common.sh
+start_docker
+
 echo 222
 
 docker --version
