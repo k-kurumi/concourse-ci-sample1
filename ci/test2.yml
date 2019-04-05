@@ -11,8 +11,8 @@ inputs:
 - name: docker-image-resource
 - name: concourse-ci-sample1
 
-# params:
-#   STARTUP_TIMEOUT: '-t 120'
+params:
+  STARTUP_TIMEOUT: '-t 120'
 
 run:
   path: concourse-ci-sample1/ci/test2.sh
