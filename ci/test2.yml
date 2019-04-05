@@ -4,11 +4,15 @@ platform: linux
 image_resource:
   type: registry-image
   source:
-    repository: kurumi/dind_add_bash
+    repository: docker
+    # repository: kurumi/dind_add_bash
 
 inputs:
 - name: docker-image-resource
 - name: concourse-ci-sample1
+
+params:
+  STARTUP_TIMEOUT: '-t 120'
 
 run:
   path: concourse-ci-sample1/ci/test2.sh
