@@ -4,8 +4,8 @@ platform: linux
 image_resource:
   type: registry-image
   source:
-    repository: docker
-    # repository: kurumi/dind_add_bash
+    # repository: docker
+    repository: kurumi/dind_add_bash
 
 inputs:
 - name: docker-image-resource

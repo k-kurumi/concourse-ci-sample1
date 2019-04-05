@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 source docker-image-resource/assets/common.sh
 start_docker
