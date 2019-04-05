@@ -1,15 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
-source docker-image-resource/assets/common.sh
-start_docker
-
-echo 222
-
-docker --version
-
-# docker-composeは入ってない
-# docker-compose --version
-
-cd concourse-ci-sample1
-docker build . -t d1
-docker run d1
+apk --no-cache add bash
+./concourse-ci-sample1/ci/test2.bash
