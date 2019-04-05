@@ -5,6 +5,8 @@ image_resource:
   type: registry-image
   source:
     repository: docker
+    tag: 18.03.0-ce-dind
+    # repository: docker
     # repository: kurumi/dind_add_bash
 
 inputs:
