@@ -1,5 +1,8 @@
 #!/bin/sh
 
+apk update
+apk add bash
+
 source docker-image-resource/assets/common.sh
 start_docker
 
