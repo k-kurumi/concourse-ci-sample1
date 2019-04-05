@@ -13,6 +13,7 @@ inputs:
 
 params:
   STARTUP_TIMEOUT: '-t 120'
+  SKIP_PRIVILEGED: true
 
 run:
   path: concourse-ci-sample1/ci/test2.sh
